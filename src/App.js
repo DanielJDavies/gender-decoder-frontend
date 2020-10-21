@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from "react";
+import AddJob from "./Components/addJob/AddJob";
+import {Link, Switch, Route, BrowserRouter as Router } from "react-router-dom";
+import ViewJob from "./Components/viewJob/ViewJob";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div>
+          <h1 className="header">Gender-decoder application</h1>
+          <nav className="topnav">
+              <Link to={'/'} className="nav-link">Add Job </Link>
+              <Link to={'/view'} className="nav-link">View Jobs</Link>
+          </nav>
+          <Switch>
+              <Route exact path='/' component={AddJob} />
+              <Route path='/view' component={ViewJob} />
+          </Switch>
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
+
