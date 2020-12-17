@@ -1,15 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
 import './viewJob.css';
 import Loader from 'react-loader-spinner';
 import axios from 'axios';
 
 export default function ViewJob() {
   const [data, updateData] = React.useState([]);
-  const [firstLoad, setLoad] = React.useState(true);
+
   let isLoading = true;
 
-
-  if (firstLoad) {
+  useEffect(()=>{
     axios({
       method: 'get',
       url: '/texts',
@@ -17,8 +16,7 @@ export default function ViewJob() {
       console.log(res);
       updateData(res.data)
     });
-    setLoad(false);
-  }
+  },[]);
 
   if (data.length > 0) isLoading = false;
 
