@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/ciseng/gender-decoder-frontend/blob/master/src/Components/addJob/equality-people.png" alt="Gender-Decoder-App logo"/>
+  <img src="https://github.com/ciseng/gender-decoder-frontend/blob/master/src/Components/addJob/equality-people.png" alt="Gender-Decoder-App logo" width=80px/>
 </p>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
