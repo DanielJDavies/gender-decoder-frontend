@@ -1,4 +1,5 @@
-![Gender-Decoder-App logo](gender-decoder-frontend/src/Components/addJob/equality-people.png)
+![Gender-Decoder-App logo](https://github.com/ciseng/gender-decoder-frontend/blob/master/src/Components/addJob/equality-people.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 This is a simple app example for Year 2 projects in Computer Science, implementing the front-end of the Gender-Decoder-App using React.
