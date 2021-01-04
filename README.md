@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is a simple app example for Year 2 projects in Computer Science, implementing the front-end of the Gender-Decoder-App using React.
+It requires the back-end that was written for the Gender-Decoder-App, and provided in the labs.  
+Note that the project is kept simple.
+
+The original [Gender-Decoder App]( http://gender-decoder.katmatfield.com/) is written in python and also published as a [GitHub repository](https://github.com/lovedaybrooke/gender-decoder). This tool was inspired by a research paper written by Danielle Gaucher, Justin Friesen, and Aaron C. Kay back in 2011, called Evidence That Gendered Wording in Job Advertisements Exists and Sustains Gender Inequality (Journal of Personality and Social Psychology, July 2011, Vol 101(1), p109-28).
+
 ## Available Scripts
 
 In the project directory, you can run:
